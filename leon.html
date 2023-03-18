@@ -254,7 +254,7 @@
                 <div class="icon">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-google"></i>
+                  <a href="mailto:leonagency@mail.com" > <i class="fa-brands fa-google"></i> </a>
                 </div>
             </div>
         </div>
@@ -271,8 +271,13 @@
     </div>
 
     <!-- end footer  -->
-
-
+    <script>
+        const yearEl = document.getElementById("footer");
+        const currentYear = new Date().getFullYear();
+        yearEl.innerText = currentYear;
+      </script>
+</body>
+</html>
 
 
 
